@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Platfer - Official Links</title>
+    <meta
+      name="description"
+      content="Platfer official public links: homepage, privacy policy, and terms of service."
+    />
+    <style>
+      :root {
+        --bg: #0b1220;
+        --card: #0f1a33;
+        --text: #e8eefc;
+        --muted: rgba(232, 238, 252, 0.74);
+        --border: rgba(232, 238, 252, 0.12);
+        --link: #7cb8ff;
+        --btn: #1a237e;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+          "Apple Color Emoji", "Segoe UI Emoji";
+        background: radial-gradient(
+            1200px 700px at 20% 10%,
+            rgba(57, 73, 171, 0.55),
+            transparent 60%
+          ),
+          radial-gradient(
+            1000px 600px at 90% 20%,
+            rgba(26, 35, 126, 0.6),
+            transparent 55%
+          ),
+          var(--bg);
+        color: var(--text);
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 40px 18px 70px;
+      }
+      .hero {
+        padding: 24px 22px;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        background: linear-gradient(
+          135deg,
+          rgba(15, 26, 51, 0.92),
+          rgba(15, 26, 51, 0.68)
+        );
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.34);
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: 28px;
+        line-height: 1.2;
+        letter-spacing: 0.2px;
+      }
+      p {
+        margin: 0 0 12px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px;
+        margin-top: 16px;
+      }
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 14px 14px;
+        background: rgba(0, 0, 0, 0.1);
+      }
+      .card h2 {
+        margin: 0 0 6px;
+        font-size: 16px;
+      }
+      .card p {
+        margin: 0 0 10px;
+        font-size: 13.5px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 12px;
+        border-radius: 12px;
+        background: rgba(26, 35, 126, 0.95);
+        color: white;
+        font-weight: 650;
+        letter-spacing: 0.2px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+      }
+      .btn:hover {
+        text-decoration: none;
+        background: rgba(26, 35, 126, 1);
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 13px;
+        color: rgba(232, 238, 252, 0.62);
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 12.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <h1>Platfer - Official Public Links</h1>
+        <p>
+          This page provides the official Privacy Policy and Terms of Service
+          links for Platfer.
+        </p>
+        <p class="mono">
+          Last updated: 2026
+        </p>
+        <div class="links">
+          <div class="card">
+            <h2>Privacy Policy</h2>
+            <p>Read how Platfer collects, uses, and protects your data.</p>
+            <a class="btn" href="./privacy-policy.html">Open Privacy Policy</a>
+          </div>
+          <div class="card">
+            <h2>Terms of Service</h2>
+            <p>Read the usage terms, payments, refunds, and responsibilities.</p>
+            <a class="btn" href="./terms-of-service.html">Open Terms</a>
+          </div>
+        </div>
+        <div class="footer">
+          Contact: <a href="mailto:help.platfer@gmail.com">help.platfer@gmail.com</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
