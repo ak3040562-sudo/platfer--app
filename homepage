@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Platfer – Nearby & All-India Coachings</title>
+  <meta charset="utf-8">
+</head>
+<body style="font-family: Arial; padding: 24px;">
+
+  <h1>Platfer</h1>
+  <p>
+    Platfer is an education platform that helps students discover nearby and
+    all-India coachings, join batches, attend live classes, and watch recorded lectures online.
+  </p>
+
+  <p>
+    Teachers can manage batches, upload videos, take attendance,
+    and notify students using the Platfer app.
+  </p>
+
+  <hr>
+
+  <p>
+    <a href="https://ak3040562-sudo.github.io/platfer--app/privacy.html">
+      Privacy Policy
+    </a>
+    |
+    <a href="https://ak3040562-sudo.github.io/platfer--app/terms.html">
+      Terms of Service
+    </a>
+  </p>
+
+</body>
+</html>
