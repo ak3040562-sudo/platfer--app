@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Platfer - Official Links</title>
+    <title>Platfer - Homepage</title>
+    <meta name="google-site-verification" content="REPLACE_WITH_YOUR_TOKEN" />
     <meta
       name="description"
-      content="Platfer official public links: homepage, privacy policy, and terms of service."
+      content="Platfer is a learning platform used by students and teachers. This site provides required links for Google OAuth verification."
     />
     <style>
       :root {
@@ -108,8 +109,14 @@
       }
       .footer {
         margin-top: 20px;
-        font-size: 13px;
+        font-size: 14px;
         color: rgba(232, 238, 252, 0.62);
+      }
+      .footerLinks {
+        margin-top: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
       }
       .mono {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
@@ -121,10 +128,15 @@
   <body>
     <main class="wrap">
       <section class="hero">
-        <h1>Platfer - Official Public Links</h1>
+        <h1>Platfer</h1>
         <p>
-          This page provides the official Privacy Policy and Terms of Service
-          links for Platfer.
+          Platfer is a learning platform that helps students and teachers
+          connect for digital learning.
+        </p>
+        <p>
+          Students use Platfer to join classes, access learning content, and
+          participate in tests. Teachers use Platfer to manage their batches and
+          share content with students.
         </p>
         <p class="mono">
           Last updated: 2026
@@ -132,17 +144,24 @@
         <div class="links">
           <div class="card">
             <h2>Privacy Policy</h2>
-            <p>Read how Platfer collects, uses, and protects your data.</p>
-            <a class="btn" href="./privacy-policy.html">Open Privacy Policy</a>
+            <p>How Platfer collects and uses data (Google OAuth, Firebase).</p>
+            <a class="btn" href="./privacy.html">Open Privacy Policy</a>
           </div>
           <div class="card">
             <h2>Terms of Service</h2>
-            <p>Read the usage terms, payments, refunds, and responsibilities.</p>
-            <a class="btn" href="./terms-of-service.html">Open Terms</a>
+            <p>Rules for using Platfer and account responsibilities.</p>
+            <a class="btn" href="./terms.html">Open Terms of Service</a>
           </div>
         </div>
         <div class="footer">
-          Contact: <a href="mailto:help.platfer@gmail.com">help.platfer@gmail.com</a>
+          <div>
+            Contact:
+            <a href="mailto:support@platfer.app">support@platfer.app</a>
+          </div>
+          <div class="footerLinks" aria-label="Policy links">
+            <a class="btn" href="./privacy.html">Privacy Policy</a>
+            <a class="btn" href="./terms.html">Terms of Service</a>
+          </div>
         </div>
       </section>
     </main>
